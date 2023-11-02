@@ -52,7 +52,7 @@ export default async function Page() {
                     <div className="flex justify-end">
                         <button><Link href="/login">Login</Link></button>
                     </div>
-                 )
+                )
                 }
 
 
@@ -65,7 +65,7 @@ export default async function Page() {
                     <div>allo, heres some secret stuff...</div>
                 ) : (
 
-                    <div>you are not logged in</div>
+                    <div>you are not logged in</div>//serve a component here.
                 )
                 }
 
